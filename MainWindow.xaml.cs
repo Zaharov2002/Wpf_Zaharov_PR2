@@ -23,12 +23,25 @@ namespace Wpf_Zaharov_PR2
         public MainWindow()
         {
             InitializeComponent();
+        
         }
 
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        private void Win1_Click(object sender, RoutedEventArgs e)
         {
-            RadioButton pressed = (RadioButton)sender;
-            MessageBox.Show(pressed.Content.ToString());
+            Window1 window1 = new Window1();
+            window1.Show();
+        }
+
+        private void Win2_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 window2 = new Window2();
+            window2.Show();
+        }
+
+        private void Win3_Click(object sender, RoutedEventArgs e)
+        {
+            Window3 window3 = new Window3();
+            window3.Show();
         }
     }
 }
