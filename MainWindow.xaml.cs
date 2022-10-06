@@ -43,5 +43,17 @@ namespace Wpf_Zaharov_PR2
             Window3 window3 = new Window3();
             window3.Show();
         }
+
+        private void Win4_Click(object sender, RoutedEventArgs e)
+        {
+            Window4 window4 = new Window4();
+            window4.Show();
+        }
+
+        private void Win5_Click(object sender, RoutedEventArgs e)
+        {
+            Window5 window5 = new Window5();
+            window5.Show();
+        }
     }
 }

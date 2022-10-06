@@ -7,10 +7,6 @@
         mc:Ignorable="d"
         Title="Window3" Height="450" Width="800">
     <Grid>
-        <ListBox SelectedIndex="1">
-            <ListBoxItem Content="red"/>
-            <ListBoxItem Content="Green"/>
-            <ListBoxItem Content="blue"/>
-        </ListBox>
+        <Slider Height="25" Width="100" Minimum="1" Maximum="100" Value="20"/>
     </Grid>
 </Window>
