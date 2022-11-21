@@ -16,6 +16,8 @@
             <Button x:Name="Win6" Canvas.Left="10" Canvas.Top="100" Height="50" Width="100" Content="Win6" Click="Win6_Click"></Button>
             <Button x:Name="Win7" Canvas.Left="150" Canvas.Top="100" Height="50" Width="100" Content="Win7" Click="Win7_Click"></Button>
             <Button x:Name="Win8" Canvas.Left="300" Canvas.Top="100" Height="50" Width="100" Content="Win8" Click="Win8_Click"></Button>
+            <Button x:Name="Win9" Canvas.Left="450" Canvas.Top="100" Height="50" Width="100" Content="Win9" Click="Win9_Click"></Button>
+            <Button x:Name="Win10" Canvas.Left="600" Canvas.Top="100" Height="50" Width="100" Content="Win10" Click="Win10_Click"></Button>
         </Canvas>
     </Grid>
 </Window>

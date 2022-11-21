@@ -73,5 +73,17 @@ namespace Wpf_Zaharov_PR2
             Window8 window8 = new Window8();
             window8.Show();
         }
+
+        private void Win9_Click(object sender, RoutedEventArgs e)
+        {
+            Window9 window9 = new Window9();
+            window9.Show();
+        }
+
+        private void Win10_Click(object sender, RoutedEventArgs e)
+        {
+            Window10 window10 = new Window10();
+            window10.Show();
+        }
     }
 }
